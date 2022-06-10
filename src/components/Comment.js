@@ -4,8 +4,6 @@ import CommentDetail from './CommentDetail';
 import '../css/button.css'
 
 const Comment = () => {
-
-
     return (
         <div className='ui comments'>
             <div className='comment'>

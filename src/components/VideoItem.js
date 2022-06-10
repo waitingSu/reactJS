@@ -2,8 +2,6 @@ import React from 'react';
 import '../css/VideoItem.css';
 
 const VideoItem = ({ video,onViedoSelect }) => {
-    
-
     return (
         <div onClick={() => onViedoSelect(video)} className='video-item item'>
             <img alt={video.snippet.title}
